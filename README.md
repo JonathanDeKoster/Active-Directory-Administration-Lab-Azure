@@ -93,9 +93,9 @@ This structure provides a logical foundation for managing users and computers an
 
 I created several domain user accounts:
 
-Alice Johnson
-Bob Martinez
-Chris Walker
+- Alice Johnson
+- Bob Martinez
+- Chris Walker
 
 
 The accounts were created within the appropriate Users OU and verified through Active Directory Users and Computers
@@ -104,9 +104,9 @@ The accounts were created within the appropriate Users OU and verified through A
 ## 5. Security Groups
 
 I created the following security groups: 
-Help Desk
-Accounting
-IT Support
+- Help Desk
+- Accounting
+- IT Support
 
 Users were then assigned to the appropriate groups
 
@@ -166,21 +166,21 @@ This provides a foundation for applying computer-specific policies through Group
 
 ## 11. Skills Demonstrated
 
-Microsoft Azure VM Deployment
-Windows Server Administration
-Active Directory Domain Services
-Domain Controller configuration
-Active Directory Users and Computers
-Organizational Units (OUs)
-User Account administration
-Security Groups
-Group Membership
-Domain joining
-DNS configuration
-Domain authentication
-Password policies
-Delegated administration
-Windows client administration
+- Microsoft Azure VM Deployment
+- Windows Server Administration
+- Active Directory Domain Services
+- Domain Controller configuration
+- Active Directory Users and Computers
+- Organizational Units (OUs)
+- User Account administration
+- Security Groups
+- Group Membership
+- Domain joining
+- DNS configuration
+- Domain authentication
+- Password policies
+- Delegated administration
+- Windows client administration
 
 
 
