@@ -62,6 +62,8 @@ Microsoft Azure
 
 I deployed a Windows Server virtual machine in Microsoft Azure and connected to it using Remote Desktop Connection.
 
+<img width="2553" height="1313" alt="01-azure-vm" src="https://github.com/user-attachments/assets/03999912-cd6b-4792-8119-6f5cb7713593" />
+
 
 
 ## 2.Installing Active Directory Domain Services
@@ -199,6 +201,41 @@ This lab helped reinforce how several Windows infrastructure components work tog
 - Troubleshooting Active Directory requires understanding how identity, DNS, authentication, group membership and policies interact.
 
 
+
+## 13. Screenshots
+
+
+## Azure Infrastructure
+
+<img width="2553" height="1313" alt="01-azure-vm" src="https://github.com/user-attachments/assets/e420ec71-8828-4cbf-b1fe-c50c4605f1f3" />
+<img width="2558" height="1321" alt="02-dc-network-settings" src="https://github.com/user-attachments/assets/3b3a7976-ac8f-49fb-a6cc-0a7336140153" />
+<img width="2559" height="1316" alt="03-dc-static-ip" src="https://github.com/user-attachments/assets/72f96dc5-92a4-4781-acc6-73304783634f" />
+<img width="2556" height="1468" alt="13-client-vm" src="https://github.com/user-attachments/assets/5d7ac41d-09f8-40f1-a09e-f2a061ffc9c2" />
+
+
+## Domain Controller & Active Directory Configuration
+<img width="2554" height="1536" alt="05-server-manager" src="https://github.com/user-attachments/assets/3c0f1813-a536-45b8-91d9-e65a3caa5251" />
+<img width="2366" height="1423" alt="06-add-ad-ds" src="https://github.com/user-attachments/assets/9a59d195-0476-4ba5-a180-1b6472b4e2a4" />
+<img width="2363" height="1415" alt="07-promote-domain-controller" src="https://github.com/user-attachments/assets/d4a3a675-f12a-4114-b564-01c9f592b7b8" />
+<img width="2359" height="1407" alt="09-ou-structure" src="https://github.com/user-attachments/assets/87d94894-e8bd-49d5-bc4a-2b14f6ab466f" />
+
+
+## Users, Groups & Administration
+<img width="2359" height="1416" alt="10-ad-users" src="https://github.com/user-attachments/assets/5a6ac67d-bc55-481e-b1a3-734f1c7b855c" />
+<img width="2360" height="1418" alt="11-ad-groups" src="https://github.com/user-attachments/assets/1a192b3e-6668-4bbd-acc4-05ad95784e68" />
+<img width="2350" height="1413" alt="12-helpdesk-membership" src="https://github.com/user-attachments/assets/8c4ca1ae-41ce-4070-891e-a1acaf7f5ede" />
+<img width="1181" height="709" alt="21-new-password-policy" src="https://github.com/user-attachments/assets/c663acac-515c-40a2-be5c-3439502ee14c" />
+<img width="1179" height="710" alt="22-delegation-wizard" src="https://github.com/user-attachments/assets/226ac961-c9aa-4c6c-8548-8090f64a89bb" />
+
+
+## Domain Client & Authentication
+<img width="2350" height="1412" alt="14-client-domain-join" src="https://github.com/user-attachments/assets/b4968f5b-ab77-4e8f-8699-4fa1648455e9" />
+
+<img width="2357" height="1423" alt="15-client-domain-join-success" src="https://github.com/user-attachments/assets/10872000-54a2-4318-bd1a-a79d0d45da8b" />
+
+<img width="1182" height="708" alt="16-client-in-ad" src="https://github.com/user-attachments/assets/410ab155-140b-4d62-a056-5bc3fc69edb5" />
+
+<img width="1179" height="704" alt="17-remote-desktop-groups" src="https://github.com/user-attachments/assets/22bdd90a-a749-45ed-8172-5055430230ec" />
 
 
 
