@@ -62,18 +62,15 @@ Microsoft Azure
 
 I deployed a Windows Server virtual machine in Microsoft Azure and connected to it using Remote Desktop Connection.
 
-<img width="2553" height="1313" alt="01-azure-vm" src="https://github.com/user-attachments/assets/03999912-cd6b-4792-8119-6f5cb7713593" />
 
-
-
-## 2.Installing Active Directory Domain Services
+## 2. Installing Active Directory Domain Services
 
 After connecting to the Windows Server, I used Server Manager to install the Active Directory Domain Services role.
 
 
 After installation, the server was promoted to a domain controller and a new forest was created using:
 
-lab.local
+- lab.local
 
 ## 3. Active Directory Organizational Structure
 
