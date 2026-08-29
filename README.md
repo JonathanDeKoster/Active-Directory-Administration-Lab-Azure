@@ -196,7 +196,7 @@ This lab helped reinforce how several Windows infrastructure components work tog
 - Group Policy provides centralized configuration and security management.
 - Domain joining allows Windows clients to participate in the Active Directory environment.
 - Administrative tasks can be delegated without granting unnecessary privileges.
-
+- Troubleshooting Active Directory requires understanding how identity, DNS, authentication, group membership and policies interact.
 
 
 
