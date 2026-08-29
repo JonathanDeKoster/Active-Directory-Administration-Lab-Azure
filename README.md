@@ -186,3 +186,19 @@ This provides a foundation for applying computer-specific policies through Group
 
 ## 12. What I Learned
 
+
+This lab helped reinforce how several Windows infrastructure components work together:
+
+- Active Directory provides centralized identity and user management.
+- DNS is essential for domain communication and authentication.
+- Organizational Units provide a logical structure for users and computers.
+- Security groups can be used to organize users and control access.
+- Group Policy provides centralized configuration and security management.
+- Domain joining allows Windows clients to participate in the Active Directory environment.
+- Administrative tasks can be delegated without granting unnecessary privileges.
+
+
+
+
+
+
