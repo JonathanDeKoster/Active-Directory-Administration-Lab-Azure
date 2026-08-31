@@ -1,4 +1,4 @@
-# Active-Directory-Administration-Lab-Azure
+# Active Directory Administration Lab - Azure
 
 ## Overview
 
@@ -33,7 +33,7 @@ The goal was to practice foundational Windows administration tasks commonly perf
 |---|---|
 | Cloud Platform | Microsoft Azure |
 | Server OS | Windows Server |
-| Client OS | Windows Server|
+| Client OS | Windows Server client VM |
 | Directory Service | Active Directory Domain Services |
 | Domain | `lab.local` |
 | Management Tools | Server Manager, Active Directory Users and Computers |
@@ -70,22 +70,23 @@ After connecting to the Windows Server, I used Server Manager to install the Act
 
 After installation, the server was promoted to a domain controller and a new forest was created using:
 
-- lab.local
+- `lab.local`
 
 ## 3. Active Directory Organizational Structure
 
-I created basic OU structure to organize users and computers by branch and device type
+I created a basic OU structure to organize users and computers by branch and device type:
 
+```text
 lab.local
 └── Branches
-    └── [Grand Rapids]
+    └── Grand Rapids
         ├── Users
         ├── Workstations
         └── Laptops
+```
 
 
-
-This structure provides a logical foundation for managing users and computers and can be used for future Group Policy configuration
+This structure provides a logical foundation for managing users and computers and can be used for future Group Policy configuration.
 
 
 ## 4. User Account Creation
@@ -97,7 +98,7 @@ I created several domain user accounts:
 - Chris Walker
 
 
-The accounts were created within the appropriate Users OU and verified through Active Directory Users and Computers
+The accounts were created within the appropriate Users OU and verified through Active Directory Users and Computers.
 
 
 ## 5. Security Groups
@@ -107,7 +108,7 @@ I created the following security groups:
 - Accounting
 - IT Support
 
-Users were then assigned to the appropriate groups
+Users were then assigned to the appropriate groups.
 
 
 This demonstrated how security groups can be used to organize users and control access to resources.
@@ -117,7 +118,7 @@ This demonstrated how security groups can be used to organize users and control 
 ## 6. Joining the Windows Server Client to the Domain
 
 
-The Windows Server client was configured to use the domain controller for DNS and then joined to the lab.local domain.
+The Windows Server client was configured to use the domain controller for DNS and then joined to the `lab.local` domain.
 
 
 After restarting the client, I verified that the computer was successfully joined to the domain.
@@ -126,7 +127,7 @@ After restarting the client, I verified that the computer was successfully joine
 
 ## 7. Domain Authentication
 
-I logged into the Windows Server client using a domain user account
+I logged into the Windows Server client using a domain user account.
 
 
 I then verified the authenticated user and group memberships from the client.
@@ -138,7 +139,7 @@ This confirmed that the client was communicating with the domain and that the us
 
 ## 8. Password Policy
 
-I configured a basic domain password policy and verified the resulting settings
+I configured a basic domain password policy and verified the resulting settings.
 
 
 This demonstrated how password requirements can be centrally managed through Active Directory.
@@ -162,8 +163,17 @@ After joining the client to the domain, I moved the computer object into the app
 
 This provides a foundation for applying computer-specific policies through Group Policy.
 
+## 11. Troubleshooting
 
-## 11. Skills Demonstrated
+### Login Script
+
+As a bonus task, I attempted to configure a basic login script using the domain's SYSVOL directory.
+
+The script did not function as expected during testing, so I did not consider this task complete.
+
+This provided an opportunity to identify an area for further troubleshooting and reinforced the importance of understanding how SYSVOL, domain authentication, and Group Policy work together.
+
+## 12. Skills Demonstrated
 
 - Microsoft Azure VM Deployment
 - Windows Server Administration
@@ -183,7 +193,7 @@ This provides a foundation for applying computer-specific policies through Group
 
 
 
-## 12. What I Learned
+## 13. What I Learned
 
 
 This lab helped reinforce how several Windows infrastructure components work together:
@@ -199,7 +209,7 @@ This lab helped reinforce how several Windows infrastructure components work tog
 
 
 
-## 13. Screenshots
+## 14. Screenshots
 
 
 ## Azure Infrastructure
